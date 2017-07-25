@@ -15,12 +15,15 @@ public class Sale {
 		System.out.println("Customer's number:");
 		Scanner scan1 = new Scanner(System.in);
 		CustomerNumber= scan1.nextLine();
+		
 		System.out.println("Customer's name:");
 		Scanner scan2 = new Scanner(System.in);
 		name = scan2.nextLine();
+		
 		System.out.println("Sales amount:");
 		Scanner scan3 = new Scanner(System.in);
 		sale = scan3.nextDouble();
+		
 		System.out.println("TaxCode:");
 		Scanner scan4 = new Scanner(System.in);
 		TaxCode= scan4.nextInt();
